@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include<sstream> 
+#include<cmath>
+using namespace std;
+int main(){
+    long long t;
+    cin>>t;
+    while(t){
+        int a;
+        cin>>a;
+        if(a%2==0){
+          cout<<a/2<<".0"<<endl;  
+        }
+        else{
+          
+        cout<<float(a)/2<<endl;
+            
+        }
+        t--;
+    }
+}
+   
