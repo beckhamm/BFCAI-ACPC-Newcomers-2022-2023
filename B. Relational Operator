@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+#include<sstream> 
+#include<cmath>
+using namespace std;
+int main(){
+    long long t,a,b;
+    cin>>t;
+    while(t){
+        cin>>a>>b;
+        if(a>b)
+        cout<<">"<<endl;
+        else if(a<b)
+        cout<<"<"<<endl;
+        else
+        cout<<"="<<endl;
+        t--;
+    }
+}
