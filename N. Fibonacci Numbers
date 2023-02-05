@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int F(int N)
+{
+    if (N <= 1)
+       {
+        return N;
+       }
+       
+    return F(N-1) + F(N-2);
+}
+ 
+int main ()
+{
+    int N ;
+    cin>>N;
+    for(int i=0;i<N;i++){
+    cout << F(i)<<" ";
+    }
+    return 0;
+}
