@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+#include<sstream>
+#include <iomanip>
+#include<cmath>
+using namespace std;
+int main(){
+    long long x;
+    cin>>x;
+    while(x){
+       long double s,v,d;
+        cin>>s>>v;
+        d=(s*v*100)/6;
+        cout<<fixed << setprecision(6) <<d<<endl;
+        x--;
+    }
+}
