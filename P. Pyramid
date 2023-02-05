@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int N1;
+   cin>>N1;
+   int space=N1-1;
+    for (int i = 1; i <=N1 ; i++) {
+        for (int s=1;s<=space;s++){
+            cout<<" ";
+        }
+ 
+        for (int j = 1; j <i*2 ; j++) {
+            cout<<"*";
+ 
+        }
+        space--;
+        cout<<endl;
+    }
+ 
