@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+#include <bits/stdc++.h>
+using namespace std;
+int main() { 
+    int n,s=1;
+    long long v,sum=1;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+       s=s*i;
+    }
+   
+     while(n-1){
+         
+         cin>>v;
+         sum=sum*v;
+         n--;
+     }
+    cout<<s/sum;
+}
